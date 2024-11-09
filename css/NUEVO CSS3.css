@@ -1,0 +1,73 @@
+body {
+    background-color: #1c1c1c; 
+    color: #ffffff; 
+    font-family: Arial, sans-serif;
+    margin: 0; 
+    padding: 0; 
+    border: 20px solid blue; /* Cambiado para definir correctamente el borde */
+    text-align: center;
+}
+
+#principal {
+    display: block;
+    width: 1250px;
+    padding: 10px;
+    text-align: center;
+    border-image: linear-gradient(to right, rgba(247,183,57,0.7), rgba(252,74,26,0.7)); /* Corregido: `borde-image` a `border-image` */
+    border-image-slice: 1;
+    box-shadow: 0 0 10px rgba(252,74,26,0.5);
+    background-size: cover;
+    -moz-border-radius: 20px;
+    -webkit-border-radius: 20px;
+    border-radius: 20px;
+}
+
+header {
+    background-color: #2d2d2d; 
+    padding: 20px;
+    text-align: center; 
+}
+
+h1 {
+    font-size: 36px; 
+    margin: 0; 
+}
+
+#menu {
+    text-align: center;
+    max-width: 1200px; 
+    margin: 20px auto; 
+    padding: 0 20px;
+    background-color: #2d2d2d;
+}
+
+#menu li {
+    display: inline-block;
+    list-style: none;
+    margin: 0;
+    padding: 5px;
+    font: bold 14px Verdana, sans-serif;
+    background-color: #2d2d2d; /* Corregido para incluir dentro del selector `#menu li` */
+}
+
+.container {
+    max-width: 1200px;
+    margin: 20px auto; 
+    padding: 0 20px; 
+}
+
+a {
+    color: #ffffff; 
+    text-decoration: none; 
+}
+
+a:hover {
+    text-decoration: underline; 
+}
+
+.video-estilo {
+    padding: 10px;
+    padding-top: 10px;
+    width: 1300px;
+    height: 700px;
+}
